@@ -1,0 +1,12 @@
+de:
+  app_name: Buchladen
+  language_name: Deutsch
+  books:
+    title: Neue Bücher
+    count:
+      one: "%{count} Buch"
+      other: "%{count} Bücher"
+    by: "von %{author}"
+    copies:
+      one: "Noch %{count} Exemplar"
+      other: "Noch %{count} Exemplare"

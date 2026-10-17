@@ -1,0 +1,19 @@
+<h2><%= t("books.title") %></h2>
+<p><%= t("books.count", count: @books.size) %></p>
+
+<ul class="books">
+  <% @books.each do |book| %>
+    <li>
+      <strong><%= book[:title] %></strong>
+      <span><%= t("books.by", author: book[:author]) %></span>
+      <span>$<%= format("%.2f", book[:price]) %></span>
+      <span><%= t("books.copies", count: book[:copies]) %></span>
+    </li>
+  <% end %>
+</ul>
+
+<section class="cart">
+  <h3><%= t("cart.title") %></h3>
+  <p><%= t("cart.items", count: 0) %></p>
+  <button type="button"><%= t("cart.checkout") %></button>
+</section>

@@ -1,0 +1,6 @@
+de:
+  cart:
+    title: Dein Warenkorb
+    items:
+      one: "%{count} Artikel"
+      other: "%{count} Artikel"

@@ -1,0 +1,6 @@
+ja:
+  cart:
+    title: カート
+    items:
+      other: "%{count}点"
+    checkout: ""

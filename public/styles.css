@@ -1,0 +1,12 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 2rem;
+}
+
+nav a {
+  margin-inline-end: 1rem;
+}
+
+.books li {
+  margin-bottom: 0.5rem;
+}

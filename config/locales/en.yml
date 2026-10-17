@@ -1,0 +1,12 @@
+en:
+  app_name: Bookshop
+  language_name: English
+  books:
+    title: New books
+    count:
+      one: "%{count} book"
+      other: "%{count} books"
+    by: "by %{author}"
+    copies:
+      one: "%{count} copy left"
+      other: "%{count} copies left"

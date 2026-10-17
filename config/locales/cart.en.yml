@@ -1,0 +1,7 @@
+en:
+  cart:
+    title: Your cart
+    items:
+      one: "%{count} item"
+      other: "%{count} items"
+    checkout: Check out

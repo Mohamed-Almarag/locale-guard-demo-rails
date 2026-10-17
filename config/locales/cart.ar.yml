@@ -1,0 +1,11 @@
+ar:
+  cart:
+    title: سلة التسوق
+    items:
+      zero: السلة فارغة
+      one: منتج واحد
+      two: منتجان
+      few: "%{count} منتجات"
+      many: "%{count} منتجًا"
+      other: "%{count} منتج"
+    checkout: إتمام الشراء

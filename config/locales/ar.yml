@@ -1,0 +1,20 @@
+ar:
+  app_name: المكتبة
+  language_name: العربية
+  books:
+    title: كتب جديدة
+    count:
+      zero: لا توجد كتب
+      one: كتاب واحد
+      two: كتابان
+      few: "%{count} كتب"
+      many: "%{count} كتابًا"
+      other: "%{count} كتاب"
+    by: "تأليف %{author}"
+    copies:
+      zero: نفدت النسخ
+      one: بقيت نسخة واحدة
+      two: بقيت نسختان
+      few: "بقيت %{count} نسخ"
+      many: "بقيت %{count} نسخة"
+      other: "بقيت %{count} نسخة"
