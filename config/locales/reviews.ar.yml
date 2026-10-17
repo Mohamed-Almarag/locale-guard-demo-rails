@@ -1,0 +1,7 @@
+ar:
+  reviews:
+    title: المراجعات
+    count:
+      one: مراجعة واحدة
+      other: "%{count} مراجعة"
+    by: "مراجعة من %{name}"
