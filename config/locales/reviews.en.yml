@@ -1,0 +1,7 @@
+en:
+  reviews:
+    title: Reviews
+    count:
+      one: "%{count} review"
+      other: "%{count} reviews"
+    by: "Review by %{name}"

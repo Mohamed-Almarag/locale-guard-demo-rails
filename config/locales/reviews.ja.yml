@@ -1,0 +1,6 @@
+ja:
+  reviews:
+    title: レビュー
+    count:
+      other: "%{count}件のレビュー"
+    by: "%{nom}さんのレビュー"
