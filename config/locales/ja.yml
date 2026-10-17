@@ -1,6 +1,11 @@
 ja:
   app_name: 書店
   language_name: 日本語
+  wishlist:
+    title: ほしい物リスト
+    count:
+      other: "%{count}冊を保存済み"
+    add: あとで買う
   books:
     title: 新刊
     count:

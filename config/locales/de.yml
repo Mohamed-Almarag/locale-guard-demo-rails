@@ -1,6 +1,12 @@
 de:
   app_name: Buchladen
   language_name: Deutsch
+  wishlist:
+    title: Deine Merkliste
+    count:
+      one: "%{count} Buch gemerkt"
+      other: "%{count} Bücher gemerkt"
+    add: Für später merken
   books:
     title: Neue Bücher
     count:
