@@ -8,9 +8,15 @@
       <span><%= t("books.by", author: book[:author]) %></span>
       <span>$<%= format("%.2f", book[:price]) %></span>
       <span><%= t("books.copies", count: book[:copies]) %></span>
+      <button type="button"><%= t("wishlist.add") %></button>
     </li>
   <% end %>
 </ul>
+
+<section class="wishlist">
+  <h3><%= t("wishlist.title") %></h3>
+  <p><%= t("wishlist.count", count: 2) %></p>
+</section>
 
 <section class="cart">
   <h3><%= t("cart.title") %></h3>

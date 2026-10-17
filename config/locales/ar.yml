@@ -1,6 +1,16 @@
 ar:
   app_name: المكتبة
   language_name: العربية
+  wishlist:
+    title: قائمة أمنياتك
+    count:
+      zero: لا توجد كتب محفوظة
+      one: كتاب واحد محفوظ
+      two: كتابان محفوظان
+      few: "%{count} كتب محفوظة"
+      many: "%{count} كتابًا محفوظًا"
+      other: "%{count} كتاب محفوظ"
+    add: احفظ لوقت لاحق
   books:
     title: كتب جديدة
     count:

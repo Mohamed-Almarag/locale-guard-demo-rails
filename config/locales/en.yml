@@ -1,6 +1,12 @@
 en:
   app_name: Bookshop
   language_name: English
+  wishlist:
+    title: Your wishlist
+    count:
+      one: "%{count} book saved"
+      other: "%{count} books saved"
+    add: Save for later
   books:
     title: New books
     count:
