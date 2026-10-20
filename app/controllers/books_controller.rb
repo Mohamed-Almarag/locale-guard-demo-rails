@@ -7,5 +7,6 @@ class BooksController < ApplicationController
 
   def index
     @books = BOOKS
+    @reviews = [{ name: "Lina", text: "A gentle classic." }, { name: "Omar", text: "Hard to put down." }]
   end
 end

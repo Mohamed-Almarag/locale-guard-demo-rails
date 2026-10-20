@@ -12,6 +12,17 @@
   <% end %>
 </ul>
 
+<section class="reviews">
+  <h3><%= t("reviews.title") %></h3>
+  <p><%= t("reviews.count", count: @reviews.size) %></p>
+  <% @reviews.each do |review| %>
+    <blockquote>
+      <p><%= review[:text] %></p>
+      <footer><%= t("reviews.by", name: review[:name]) %></footer>
+    </blockquote>
+  <% end %>
+</section>
+
 <section class="cart">
   <h3><%= t("cart.title") %></h3>
   <p><%= t("cart.items", count: 0) %></p>

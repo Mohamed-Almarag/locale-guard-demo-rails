@@ -3,6 +3,7 @@ ar:
   language_name: العربية
   books:
     title: كتب جديدة
+    old_title: الكتب القديمة
     count:
       zero: لا توجد كتب
       one: كتاب واحد
